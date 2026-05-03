@@ -12,7 +12,7 @@ const Vision = ({vision}) => {
     return (
         <section className='container'>
             {/* Title Start */}
-            <div className='flex flex-col justify-center items-center text-center gap-4'>
+            <div data-aos="fade-up" className='flex flex-col justify-center items-center text-center gap-4'>
                 <p className="text-title">{vision?.label}</p>
                 <h2 className="text-primry text-[32px] md:text-[48px]">{vision?.title}</h2>
                 <p className='text-[20px]'>{vision?.description}</p>
